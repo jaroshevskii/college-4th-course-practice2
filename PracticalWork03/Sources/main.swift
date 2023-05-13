@@ -8,7 +8,7 @@ class Calculator {
   func add(_ x: Double, _ y: Double) -> Double { x + y }
 
   func subtract(_ x: Int, _ y: Int) -> Int { x - y }
-  func subtract(_ x: Double, _ y: Double) -> Double { return x - y }
+  func subtract(_ x: Double, _ y: Double) -> Double { x - y }
 }
 
 let a = 5, b = 3
