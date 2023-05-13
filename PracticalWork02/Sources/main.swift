@@ -4,9 +4,9 @@
 //
 
 class Product {
-  internal var name: String
-  internal var price: Double
-  internal var weight: Double
+  private var name: String
+  private var price: Double
+  private var weight: Double
 
   init(name: String, price: Double, weight: Double) {
     self.name = name
@@ -25,7 +25,7 @@ class Product {
 }
 
 class Buy: Product {
-  internal var count: Int
+  private var count: Int
 
   init(name: String, price: Double, weight: Double, count: Int) {
     self.count = count
@@ -40,12 +40,12 @@ class Check: Buy {
   func print() {
     Swift.print("""
     Product:
-      Name:   \(name)
-      Price:  \(price)
-      Weight: \(weight)
+      Name:   \(getName())
+      Price:  \(getPrice())
+      Weight: \(getWeight())
 
     Buy:
-      Count: \(count)
+      Count: \(getCount())
     """)
   }
 }
