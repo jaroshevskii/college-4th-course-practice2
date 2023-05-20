@@ -10,7 +10,7 @@ class Fraction {
   /// The denominator of the fraction.
   var denominator: UInt16
 
-  /// Initializes a new `Fraction` instance with the given numerator and denominator.
+  /// Creates a new `Fraction` instance with the given numerator and denominator.
   ///
   /// - Parameters:
   ///   - numerator: The numerator of the fraction.
