@@ -1,0 +1,52 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Debug PracticalWork1 (PracticalWork01)",
+      "program": "${workspaceFolder:college-4th-course-practice2}/PracticalWork01/.build/debug/PracticalWork1",
+      "args": [],
+      "cwd": "${workspaceFolder:college-4th-course-practice2}/PracticalWork01",
+      "preLaunchTask": "swift: Build Debug PracticalWork1 (PracticalWork01)"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Release PracticalWork1 (PracticalWork01)",
+      "program": "${workspaceFolder:college-4th-course-practice2}/PracticalWork01/.build/release/PracticalWork1",
+      "args": [],
+      "cwd": "${workspaceFolder:college-4th-course-practice2}/PracticalWork01",
+      "preLaunchTask": "swift: Build Release PracticalWork1 (PracticalWork01)"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Debug PracticalWork5 (PracticalWork05)",
+      "program": "${workspaceFolder:college-4th-course-practice2}/PracticalWork05/.build/debug/PracticalWork5",
+      "args": [],
+      "cwd": "${workspaceFolder:college-4th-course-practice2}/PracticalWork05",
+      "preLaunchTask": "swift: Build Debug PracticalWork5 (PracticalWork05)"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Release PracticalWork5 (PracticalWork05)",
+      "program": "${workspaceFolder:college-4th-course-practice2}/PracticalWork05/.build/release/PracticalWork5",
+      "args": [],
+      "cwd": "${workspaceFolder:college-4th-course-practice2}/PracticalWork05",
+      "preLaunchTask": "swift: Build Release PracticalWork5 (PracticalWork05)"
+    }
+  ]
+}
