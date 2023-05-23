@@ -47,6 +47,30 @@
       "args": [],
       "cwd": "${workspaceFolder:college-4th-course-practice2}/PracticalWork05",
       "preLaunchTask": "swift: Build Release PracticalWork5 (PracticalWork05)"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Debug PracticalWork6 (PracticalWork06)",
+      "program": "${workspaceFolder:college-4th-course-practice2}/PracticalWork06/.build/debug/PracticalWork6",
+      "args": [],
+      "cwd": "${workspaceFolder:college-4th-course-practice2}/PracticalWork06",
+      "preLaunchTask": "swift: Build Debug PracticalWork6 (PracticalWork06)"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Release PracticalWork6 (PracticalWork06)",
+      "program": "${workspaceFolder:college-4th-course-practice2}/PracticalWork06/.build/release/PracticalWork6",
+      "args": [],
+      "cwd": "${workspaceFolder:college-4th-course-practice2}/PracticalWork06",
+      "preLaunchTask": "swift: Build Release PracticalWork6 (PracticalWork06)"
     }
   ]
 }
