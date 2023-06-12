@@ -1,20 +1,20 @@
-# Практична робота 5
+# Practical Work 5
 
-## Завдання "Поглиблення функції"
+## Task: Function Deepening
 
-Реалізувати шаблон функції з використанням метапрограмування, який дозволить застосовувати задану функцію багаторазово.
+Implement a function template using metaprogramming that allows applying a given function multiple times.
 
-**Приклади виклику**:
+**Example**:
 
 ```cpp
-Copy code
-deep<f, 3>(10); // Те саме, що і f(f(f(10)))
-deep<g, 1>(x);  // Те саме, що і g(x)
+deep<f, 3>(10); // Same as f(f(f(10)))
+deep<g, 1>(x);  // Same as g(x)
 ```
 
-**Інструкції**:
+**Instructions**:
 
-1. Визначити шаблон функції `deep`, який має два параметри-шаблони: `typename F` і `int N`.
-2. Визначити базовий випадок рекурсії, коли `N` дорівнює 0. У цьому випадку просто повернути свій аргумент без змін.
-3. Визначити загальний випадок рекурсії, коли `N` більше 0. У цьому випадку викликати функцію `deep` рекурсивно, зменшуючи значення `N` на 1 і застосовувати функцію `F` до результату попереднього виклику.
-Протестувати реалізацію, використовуючи наведені вище приклади.
+1. Define the function template `deep`, which has two template parameters: `typename F` and `int N`.
+2. Define the base case of recursion when `N` equals 0. In this case, simply return the argument without any changes.
+3. Define the general case of recursion when `N` is greater than 0. In this case, recursively call the `deep` function, decrementing the value of `N` by 1, and apply the function `F` to the result of the previous call.
+
+Test the implementation using the provided examples above.
